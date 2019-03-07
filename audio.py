@@ -1,1 +1,1 @@
-print('hello world!')
+print('hello world!') // поменяй все наконец
