@@ -42,7 +42,7 @@ print(memory_usage())
 memory_usage()
 
 
-command = "c:/python/ffmpeg/bin/ffmpeg.exe -i " + temp_v_filename + " -vn -ar 44100 -ac 2 -ab 128K -f mp3 " + temp_a_filename
+command = "c:/python/python/ffmpeg/bin/ffmpeg.exe -i " + temp_v_filename + " -vn -ar 44100 -ac 2 -ab 128K -f mp3 " + temp_a_filename
 print(command)
 subprocess.call(command, shell=True)
 
