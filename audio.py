@@ -48,12 +48,5 @@ subprocess.call(command, shell=True)
 
 os.rename(temp_a_filename, a_filename)
 os.remove(temp_v_filename)
-#command = "ffmpeg -i C:/test.mp4 -ab 160k -ac 2 -ar 44100 -vn audio.wav"
-print('Complete')
-#ffmpeg -i source_video.avi -vn -ar 44100 -ac 2 -ab 192K -f mp3 sound.mp3
-#yt.streams.get_by_itag(140).download('c:/audio')	
-#aud = yt.streams.filter(only_audio=True).first().download('c:/audio')
-#print (yt.streams.get_by_itag(140))
 
-print(memory_usage())
-memory_usage()
+print('Complete')
